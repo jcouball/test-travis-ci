@@ -3,6 +3,6 @@ rvm:
   - 2.4.1
 before_install:
   - apt-cache showpkg git
-  - sudo apt-get install git=1.9.1-1
+  - sudo apt-get install git=1:1.9.1-1ubuntu0.10
   - which git
   - git --version
